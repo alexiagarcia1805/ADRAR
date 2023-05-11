@@ -1,0 +1,31 @@
+h1{
+    color: blue;
+}
+
+/*Changer la couleur au passage de la souris"
+h1:hover{
+    color: green;
+}
+
+/*Changer le fond de couleur quand on maintient le clic de la souris avec "active":*/
+p:active{
+    background-color: gray;
+}
+
+/*Ne pas oublier de vider l'historique, fermer toutes les pages et recliquer sur le lien html, pour que le lien de la page revienne en orange, car non visitée*/
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: gray;
+}
+
+/*Faire disparaître l'image au passage de la souris avec une transition pour que cela soit plus joli:*/
+/*la disparition par l'opacité se faiit de 0 à 1 uniquement, 0 faisant disparaîter totalement et 1 étant totalement opaque*/
+img{
+    transition: opacity .4s;
+}
+img:hover{
+    opacity: 0;
+}

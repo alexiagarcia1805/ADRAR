@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    text-align: center;
+    font-size: 300% ;
+}
+
+h3{
+    color: blue;
+    font-size: 200%;
+}
+
+.article1, .article2{
+    background-color: gray;
+}
+
+strong{
+	/*j'annule l'effet gras de <strong>*/
+	font-weight:normal;
+    color: yellowgreen;
+}
+
+em{
+    /*j'annule l'effet italique de <em>*/
+    font-style: normal;
+    color: orange;
+    text-decoration: underline;
+    font-size: larger;
+}
+ 
+.article3{
+    background-color: pink;
+}
+
+.article2 h3{
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}

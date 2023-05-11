@@ -1,0 +1,12 @@
+/*pour décaler à droite à l'horizontale, mettre les valeurs en positif; pour décaler en haut en verticale, mettre les valeur en négatif; et inversement*/
+h1 {
+    text-shadow: 10px -10px 3px rgb(213, 130, 238);
+}
+
+p.p1 {
+    box-shadow: 1px 1px 20px red;
+}
+
+p.p2 {
+    box-shadow: -10px 10px 1px yellowgreen;
+}

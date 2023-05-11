@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <form method="POST" action="/html.html">
+        <label for="Prénom">Prénom:</label>
+        <input type="text" name="Prénom" placeholder="Ex: Jacques" maxlength="20" minlength="2"/> 
+        <br>
+        <label for="Nom">Nom:</label>
+        <input type="text" name="Nom" placeholder="Ex: Dubois" maxlength="20" minlength="2"/> 
+        <br>
+        <label for="Email">Email:</label>
+        <input type="text" name="Email" placeholder="Ex: monMail@FAI.com"/> 
+        <br>
+        <label for="Téléphone">Téléphone:</label>
+        <input type="text" name="Téléphone" placeholder="Ex: 00.11.22.33.44"/> 
+        <br>
+
+
+        <label for="Password">Mot de passe:</label>
+        <input type="password" name="Password" placeholder="Ex: P@sswo4rd" maxlength="30" minlength="8"/> 
+        <br>
+        <label for="age">Âge:</label>
+        <input type="number" name="age" placeholder="Ex: 15"/> 
+        <br>
+        <label for="commentaire">*Laissez un commentaire:</label><br>
+        <textarea name="commentaire" placeholder="J'aime ce que vous faites..." cols="70" rows="10"></textarea> 
+        <br><button style="background-color: darkslateblue; border-color: rgb(92, 4, 136); color: beige;"><strong>Envoyer</strong></button>
+        <br>
+
+
+        
+        <label for="date">Date du commentaire:</label>
+        <input type="date" name="date"/> 
+        <br>
+        <label for="fichier">Ma photo:</label>
+        <input type="file" name="fichier" placeholder="Choisir un fichier" accept="image/*, .jpg, .png, .gif"/>
+        <br> 
+        <fieldset>
+            <legend>Vous préférez:</legend>
+                <input type="checkbox" id="qcm1" value="Le HTML" checked/><label for="qcm1">Le HTML</label>
+                <br>
+                <input type="checkbox" id="qcm2"/><label for="qcm2">Le CSS</label>
+                <br>
+                <input type="checkbox" id="qcm3"/><label for="qcm3">Le JavaScript</label>
+                <br>
+                <input type="checkbox" id="qcm4"/><label for="qcm4">Ne rien faire</label>
+                <br>
+        </fieldset>
+        <br>
+
+
+        <fieldset>
+            <legend>Vous vous levez:</legend>
+                
+                <input type="radio" id="lever1" name="lever" value="Le matin" checked/><label for="lever1">Le matin</label>
+                <br>
+                
+                <input type="radio" id="lever2" name="lever" value="Le midi"/><label for="lever2">Le midi</label>
+                <br>
+                
+                <input type="radio" id="lever3" name="lever" value="Le soir"/><label for="lever3">Le soir</label>
+                <br>
+                
+                <input type="radio" id="lever4" name="lever" value="En retard"/><label for="lever4">En retard</label>
+                <br>
+        </fieldset>
+        <br>
+
+
+        <fieldset>
+            <legend>Fin du formulaire</legend>
+            <label for="team">Vous en avez assez?</label>
+            <select name="team" id="team">
+                <optgroup label="Team Pas encore">
+                    <option value="team1">J'en veux plus</option>
+                    <option value="team2">C'est super!</option>
+                </optgroup>
+                <optgroup label="Team Oula">
+                    <option value="team3">J'en ai marre</option>
+                    <option value="team4">Pitié!</option>
+                </optgroup>
+            </select>
+            <br><input type="submit" value="Envoyer"/><input type="reset" value="Reset"/>
+        </fieldset>
+    </form>
+</body>
+</html>
