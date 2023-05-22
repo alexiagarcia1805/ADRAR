@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <div><img src="2019_LOGO-POLE-NUM-4.png" alt="logo"/></div>
+        <h1>ADRAR: Pôle Numérique</h1>
+    </header>
+    <nav>
+        <ul>
+            <li>ACCUEIL</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>API</li>
+        </ul>
+    </nav>
+    <h1 id="titre_contact">Contactez-Nous</h1>
+    <form methode="post" action="php">
+        <fieldset>
+            <legend>Info personnelles </legend>
+            <label for="prénom">Prénom :</label><br/>
+            <input type="text" name="prénom" id="prénom" maxlength="20" minlength="2" placeholder="ex: Jaque"><br/>
+            <label for="nom">Nom :</label><br/>
+            <input type="text" name="nom" id="nom" maxlength="20" minlength="2" placeholder="ex: Chirac"><br/>
+            <label for="mail">Email :</label><br/>
+            <input type="email" name="email" id="email" placeholder="ex: jaque.chirac31@hotmail.fr"><br/>
+            <label for="tel">Numéro :</label><br/>
+            <input type="tel" name="tel" id="tel" placeholder="ex: 0638686868"><br/>
+            <label for="age">Age :</label><br/>
+            <input type="number" name="age" id="age" placeholder="ex:62"><br/>
+            <label for="commentaire">Commentaire</label><br/>
+            <textarea name="commentaire" id="commentaire" rows="10" cols="70" placeholder="Parlez-nous de vous"></textarea></br>
+        </fieldset>
+        <fieldset>
+            <legend>Vous préferez</legend>
+            <input type="checkbox" checked name="html" id="html" >
+            <label for="html">Le HTML</label><br/>
+            <input type="checkbox" name="css" id="css">
+            <label for="css">Le CSS</label><br/>
+            <input type="checkbox" name="js" id="js">
+            <label for="js">Le JavaScript</label><br/>
+            <input type="checkbox" name="rien" id="rien">
+            <label for="rien">Je ne code pas</label>
+        </fieldset>
+        <input type="submit" value="Envoyer">
+            <input type="reset" value="Reset">
+    </form>
+    <footer>
+        <a href="contact.html">Contact</a><!--logo navigator + contact-->
+    </footer>
+    <!-- <div class="blason"><img src="blason.png" alt="Blason"/></div> -->
+</body>
+</html>

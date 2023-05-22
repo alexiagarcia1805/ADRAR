@@ -1,0 +1,65 @@
+/**************
+    VARIABLES
+***************/
+/******************
+    MIXINS
+*******************/
+/******************
+    EXTENDS
+*******************/
+.cardList, .socialNetwork {
+  display: flex;
+}
+
+/******************
+        BASE
+*******************/
+/***************
+    RESET CSS
+****************/
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  color: orange;
+  text-decoration: underline red;
+}
+
+p {
+  color: black;
+}
+
+a {
+  color: green;
+  font-weight: bold;
+}
+
+h3 {
+  color: green;
+  font-family: helvetica, verdana, arial, sans-serif;
+}
+
+body {
+  width: 50%;
+}
+body header {
+  background-color: orange;
+}
+body header > nav {
+  color: black;
+}
+body header > nav ~ img {
+  height: 300px;
+}
+
+.intro_Title {
+  font-size: 3rem;
+  font-family: abrilFatFace;
+  color: orange;
+}
+
+/*# sourceMappingURL=style.css.map */

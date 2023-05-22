@@ -1,0 +1,58 @@
+/*@media screen and (min-width) {*/
+#banniere{
+     /*height: 150px;*/
+     width: 100%;
+     padding-bottom: 50px;
+     padding-top: 50px;
+}
+
+img{
+    height: 300px;
+    width: 300px;
+}
+
+/*.s1{
+    display: grid;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.s2{
+    display: grid;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.s3{
+    display: grid;
+    border: 1px solid black;
+    padding: 10px;
+}*/
+
+/*body{
+    display: grid;
+    display: flex;
+}*/
+
+#conteneur{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+}
+
+.d1, .d2, .d3{
+    border: 1px solid black;
+    padding: 20px; 
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+}
+
+footer, p{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    max-width : 300px; 
+}

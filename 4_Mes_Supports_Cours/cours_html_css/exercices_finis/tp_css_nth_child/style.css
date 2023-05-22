@@ -1,0 +1,16 @@
+li:nth-child(even){
+    color: blue;
+    }
+
+
+/*les lignes paires auparavant bleues deviennent noires au passage de la souris*/   
+ul:hover li:nth-child(odd){
+        color: blue;
+    }   
+ul:hover li:nth-child(even){
+        color: black;
+    }   
+
+
+
+
