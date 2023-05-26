@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
+</head>
+
+<header>
+
+</header>
+
+<body>
+    <section>
+        <iframe id="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d859.05110445521!2d1.4452912843635244!3d43.596297045138684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aebd45308abcfd%3A0x71d9725a4debcaaf!2sL*2AAgence!5e0!3m2!1sen!2sfr!4v1684872734697!5m2!1sen!2sfr" width="280" height="460" style="border: 4px solid goldenrod;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <img id="base" src="Base.png" alt="Base" width="800" height="800">
+        <img id="engrenage" src="EngrenageBase.png" alt="Engrenage" width="200" height="200">
+        <img id="engrenage1" src="EngrenageBase.png" alt="Engrenage" width="30" height="30">
+        <img id="engrenage2" src="EngrenageBase.png" alt="Engrenage" width="30" height="30">
+        <img id="engrenage3" src="EngrenageBase.png" alt="Engrenage" width="30" height="30">
+        <img id="engrenage4" src="EngrenageBase.png" alt="Engrenage" width="30" height="30">
+        <img id="porte" src="" alt="Porte" width="800" height="600">
+    </section>
+
+    <footer>
+
+    </footer>
+
+    <script>
+    var engrenage = document.getElementById("engrenage")
+    var engrenage1 = document.getElementById("engrenage1")
+    var engrenage2 = document.getElementById("engrenage2")
+    var engrenage3 = document.getElementById("engrenage3")
+    var engrenage4 = document.getElementById("engrenage4")
+    var iframe = document.getElementById("iframe")
+    var porteOuverte = false;
+    function ouvrirPorte() {
+        if (!porteOuverte) {
+        engrenage.classList.add("rotate");
+        setTimeout(function() {
+            engrenage.classList.remove("rotate");
+        }, 2000);
+        engrenage1.classList.add("rotate");
+        setTimeout(function() {
+            engrenage1.classList.remove("rotate");
+        }, 4000);
+        engrenage2.classList.add("rotate");
+        setTimeout(function() {
+            engrenage2.classList.remove("rotate");
+        }, 4000);
+        engrenage3.classList.add("rotate");
+        setTimeout(function() {
+            engrenage3.classList.remove("rotate");
+        }, 4000);
+        engrenage4.classList.add("rotate");
+        setTimeout(function() {
+            engrenage4.classList.remove("rotate");
+        }, 4000);
+        }
+        porteOuverte = true;
+        }
+        
+    function resetPorte() {
+        porteOuverte = false;
+    }
+    engrenage.addEventListener("load", function() {
+        setTimeout(ouvrirPorte, 2000);
+    });
+    engrenage.addEventListener("mouseleave", resetPorte);
+
+    engrenage1.addEventListener("load", function() {
+        setTimeout(ouvrirPorte, 2000);
+    });
+    engrenage1.addEventListener("mouseleave", resetPorte);
+
+    engrenage2.addEventListener("load", function() {
+        setTimeout(ouvrirPorte, 2000);
+    });
+    engrenage2.addEventListener("mouseleave", resetPorte);
+
+    engrenage3.addEventListener("load", function() {
+        setTimeout(ouvrirPorte, 2000);
+    });
+    engrenage3.addEventListener("mouseleave", resetPorte);
+
+    engrenage4.addEventListener("load", function() {
+        setTimeout(ouvrirPorte, 2000);
+    });
+    engrenage4.addEventListener("mouseleave", resetPorte);
+    </script>
+
+</body>
+</html>

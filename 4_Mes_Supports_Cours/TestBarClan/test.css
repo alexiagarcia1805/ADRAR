@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+}
+
+.rotate {
+    animation: rotation 3s linear forwards;
+}
+
+@keyframes rotation {
+    0% {
+    transform: rotate(0deg);
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
+#base {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#iframe{
+    position: relative;
+    opacity: 0;
+    z-index: 4;
+    top: 167px;
+    left: 252px;
+    animation: testopacite 6s forwards;
+    animation-delay: 4.8s;
+}
+
+@keyframes testopacite { 
+    0% {
+    opacity: 0;
+    }
+    100% {
+    opacity: 1;
+    }
+}
+
+#engrenage{
+    position: absolute;
+    top: 285px;
+    left: 300px;
+    z-index: 3;
+}
+
+#engrenage1{
+    position: absolute;
+    top: 200px;
+    left: 270px;
+    z-index: 3;
+}
+
+#engrenage2{
+    position: absolute;
+    top: 200px;
+    left: 485px;
+    z-index: 3;
+}
+
+#engrenage3{
+    position: absolute;
+    top: 580px;
+    left: 270px;
+    z-index: 3;
+}
+
+#engrenage4{
+    position: absolute;
+    top: 580px;
+    left: 485px;
+    z-index: 3;
+}
+
+#porte{
+    z-index: 2;
+}
+
