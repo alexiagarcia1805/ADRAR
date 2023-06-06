@@ -29,6 +29,8 @@ for(let i=0; i<5; i++){
     a++;
 }
 
+//
+
 for(let i=0; i<5; i++){
     
     if (i%2 == 0) {
@@ -37,6 +39,14 @@ for(let i=0; i<5; i++){
         console.log("B");
     } 
 }
+
+//
+
+for(let i=0; i<5; i++){
+    console.log("A")
+    console.log("B")
+}
+
 
 // Exercice 3 : écrire dans la console :
 // A
@@ -66,6 +76,8 @@ for(let i=0; i<3; i++){
     console.log("B");
 }
 
+
+
 // Exercice 4 : écrire dans la console :
 // 0
 // 1
@@ -83,6 +95,27 @@ for(let i=0; i<10; i++){
     console.log(i);
 }
 
+//
+
+console.log(0);
+console.log(1);
+console.log(2);
+console.log(3);
+console.log(4);
+console.log(5);
+console.log(6);
+console.log(7);
+console.log(8);
+console.log(9);
+
+//
+
+let exo4Bis=0;
+    for (let i=0; i<10; i++){
+    console.log(exo4Bis);
+    exo4Bis++
+}
+
 // Exercice 5 : écrire dans la console :
 // 3
 // 4
@@ -96,9 +129,35 @@ for(let i=0; i<10; i++){
 // 12
 console.log("Exercice 5");
 
-for(let i=3; i<10; i++){
+for(let i=3; i<13; i++){
     console.log(i);
 }
+
+//
+
+let exo5=3;
+    for (let i=0; i<10; i++){
+    console.log(exo5);
+    exo5++
+}
+
+//
+
+for (let i=0; i<10; i++){
+    console.log(i+3);
+}
+
+//
+
+// Pareil que la 2ème version mais avec un while
+let exo5Quarter=3;
+let i=0;
+while(i<10){
+    console.log(exo5Quarter);
+    exo5Quarter++
+    i++;
+}
+
 
 // Exerice 6 : écrire dans la console :
 // 0
@@ -122,8 +181,21 @@ for(let i=0; i<2; i++){
 for(let j=0; j<2; j++){
     console.log(j);
 }  
+//console.log(0);
+//console.log(1);
 
+//
 
+for(let i=0; i<2; i++){ 
+    for(let j=0; j<4; j++){
+        console.log(j);
+    }  
+}  
+for(let i=0; i<3; i++){
+    console.log(i);
+}  
+
+//
 
 for (let i=0 ; i<10 ; i++){
     console.log(i%4);
@@ -159,6 +231,8 @@ for(let i=0; i<10; i++){
     }   
 }
 
+//
+
 for(let i = 0 ; i < 20 ; i++) {
     if(i < 7) {
         console.log(i);
@@ -171,10 +245,60 @@ for(let i = 0 ; i < 20 ; i++) {
     }
 }
 
+//
+
 for(let i = 0 ; i < 10 ; i++) {
     if(i > 4 && i < 8) {
         console.log("A");
     } else {
+        console.log(i);
+    }
+}
+
+//
+
+for(let i=0; i<10; i++){
+    if (i==5){
+        console.log("A");
+    } else if (i==6){
+            console.log("A");
+    } else if (i==7){
+                console.log("A");
+    } else {
+                console.log(i);
+    }     
+}
+
+//
+
+for(let i=0; i<10; i++){
+    if(i>4){
+        if(i>8){
+            console.log("A")
+        } else {
+            console.log(i)
+        }
+    } else {
+        console.log(i)
+    }
+}
+
+//
+
+for(let i=0; i<10; i++){
+    if(i>4 && i<8){// Si i est comrpis entre 4 et 8
+        console.log("A");
+    } else{
+        console.log(i);
+    }
+}
+
+//
+
+for(let i=0; i<10; i++){
+    if(i==5 || i==6 || i==7){// Si i vaut 5 ou 6 ou 7
+        console.log("A");
+    } else{
         console.log(i);
     }
 }
@@ -193,25 +317,15 @@ for(let i = 0 ; i < 10 ; i++) {
 // 109
 console.log("Exercice 8");
 
-/*
-for (let i=0 ; i<10 ; i++){
-    console.log(i)
-    if (i) {
-        
+for(let i=0; i<10; i++){
+    if (i%3 == 0) { // si i est un multiple de 3
+        console.log(i+100);
     } else {
-        
-    }
-    
-
-    let v=100
-    if(i=0){ 
-        console.log(v%3);
-    } else {
-        
-    }
+        console.log(i);
+    }   
 }
 
-*/
+
 
 // Exercice 9 : écrire dans la console :
 // 0
@@ -227,9 +341,42 @@ for (let i=0 ; i<10 ; i++){
 console.log("Exercice 9");
 
 
-for (let i=0 ; i<10 ; i++){
-    console.log(i%4);
+for(let i=0; i<10; i++){
+    if (i%3 == 0) { 
+        console.log(i);
+    } else {
+        if (i%3==1) {
+            console.log(i+100)
+            
+        } else {
+            console.log(i+200)
+            
+        }
+    }   
 }
+
+//
+
+for(let i=0; i<10; i++){
+    if (i%3 == 0) { 
+        console.log(i+ 0*100);
+    } else {
+        if (i%3==1) {
+            console.log(i+ 1*100)
+            
+        } else {
+            console.log(i+ 2*100)
+            
+        }
+    }   
+}
+
+// ==> donc:
+
+for(let i=0; i<10; i++){
+    console.log(i+(i%3)*100);
+}
+
 
 // Exercice 10 : écrire dans la console tous les résultats possibles de lancers de deux dés :
 // 1 1
