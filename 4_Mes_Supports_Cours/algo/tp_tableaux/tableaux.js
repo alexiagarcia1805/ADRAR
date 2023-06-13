@@ -91,15 +91,13 @@ console.log(elMax2(tab3));
 
 
 let tab=[1, 45, 88, 54, 23, -100, 12];
-console.log(tab);
+//console.log(tab);
 
 function reset(tab){
-    for(let i=0; i<tab.length; i++){
-        while(tab[tab.length]<50){
-            tab.pop();
-            }
-    }
-    
+    while(tab[tab.length-1]<50){
+        tab.pop();
+        }  
+    return tab;  
 }
 
 console.log(reset(tab));
