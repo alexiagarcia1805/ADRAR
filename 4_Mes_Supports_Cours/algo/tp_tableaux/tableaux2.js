@@ -111,4 +111,19 @@ for(let i=0; i<7777; i++){
 // console.log(leNomDeVotreFonction([1,45,88,54,23,-100,12]); // doit afficher [1,45,88,54]
 
 
+let tab=[1, 45, 88, 54, 23, -100, 12];
+console.log(tab);
+
+function reset(tab){
+//    for(let i=0; i<tab.length; i++){
+        while(tab[tab.length-1]<50){
+            tab.pop();
+            }
+    }
+    
+//}
+
+console.log(reset(tab));
+
+
 

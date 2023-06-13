@@ -75,13 +75,6 @@ console.log(String.fromCharCode(maVariable)+String.fromCharCode(maVariable-17));
 
 
 
-
-*/
-
-
-
-
-
 let tab=[300, 15, 5, 250, 100];
 
 let tab2=[30, 1100, 50, 200, 100, 60, 300];
@@ -93,5 +86,22 @@ console.log(elMax2(tab));
 console.log(elMax2(tab2));
 console.log(elMax2(tab3));
 
+
+*/
+
+
+let tab=[1, 45, 88, 54, 23, -100, 12];
+console.log(tab);
+
+function reset(tab){
+    for(let i=0; i<tab.length; i++){
+        while(tab[tab.length]<50){
+            tab.pop();
+            }
+    }
+    
+}
+
+console.log(reset(tab));
 
 
