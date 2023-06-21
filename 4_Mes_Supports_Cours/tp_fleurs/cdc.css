@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "friendly";
+    src: url("./friendly/friendly_regular.otf");
+}
+
+@font-face {
+    font-family: "quicksand";
+    src: url("./quicksand/quicksand_gras.otf");
+}
+
+
+header{
+    width:100vw;
+}
+
+.banniere{
+    position: a;
+    
+}
+
+.logo{
+    width:300px;
+    /*transform: translate(-50%, -50%);*/
+    margin:0 auto;
+    margin-top: -100px;
+}
+
+footer{
+    background-color:#186A77 ;
+    text-align:right;
+    width: auto;
+    height: 200px;
+}
+
+.contact{
+    color:#E7B236;
+
+
+}
+
+h1{
+    color:#E7B236;
+    font-family: friendly;
+    text-align:right;
+}
+
+
+
+.liens{
+    color:#186A77;
+    font-family: quicksand;
+    text-decoration: none;
+    
+}
+
+
+.liens:hover{
+    color: #E7B236;
+}
+
+.liens:visited{
+    color: #186A77;
+}
