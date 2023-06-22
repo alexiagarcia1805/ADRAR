@@ -47,6 +47,20 @@ let t=[100, 15, 2, 6, -10];
 console.log(min(t));
 
 
+
+
+function f9 (t){
+    let min = tab9[0]
+    for (let i = 0 ; i < t.length ; i++){
+        if (t[i] < min ) {
+            min = t [i];
+        }
+    } return min 
+}
+let tab [288,389,788,414];
+console.log (f9(tab9)); 
+
+
 // Écrire une fonction qui prend en entrée un tableau et qui retourne le maximum de ce tableau.
 
 function max(tab){
@@ -81,34 +95,88 @@ console.log(elMax2(tab));
 
 // Écrire une fonction qui prend en entrée un tableau et un nombre et qui retourne le nombre de fois que ce nombre apparaît dans le tableau.
 
+function displayRepeat(tab){
+    let num = tab[0];
+    let repeat = 0;
+    for(let i=0; i<tab.length; i++){
+        if(tab[i] == num){
+            repeat = repeat + 1;
+        }
+    }
+    return repeat;
+}
+
+
+
 // Écrire une fonction qui prend en entrée un tableau et un nombre et qui retourne true si le nombre existe dans le tableau, false sinon.
+
+
+function exist(tab){
+    let x=0;
+    for(let i=0; i<tab.length; i++){
+        if(tab[i] == x){
+            console.log("True");
+        } else {
+            console.log("False");
+        }
+    }
+}
+
+
 
 // [Bonus] Suite de l'exo : on **sait** que le tableau reçu est trié (on ne le vérifie pas). Comment exploiter cette information pour améliorer la recherche d'un élément ?
 
-
-
-
-
-
-
+On sait déjà qu'il sera trié par ordre croissant ou décroissant donc les comparaisons seront probablement moindre.
 
 
 
 // Créer un tableau qui contient [1,2,3,...,7777].
 
-let tab=[0];
-let a=0;
-for(let i=0; i<7777; i++){
-    console.log(tab[a]);  
-    i++
+let tab=[];
+
+for(let i=1; i<=7777; i++){  
+    //console.log(tab.push(i)); ====> Possible, mais attention car il faut changer le i pour qu'il commence à 1 et non à 2.
+    tab.push(i);
 }
+
+console.log(tab);
+
 
 // Créer un tableau qui contient [10,20,30,...,77770].
 
+let tab=[];
+
+for(let i=10; i<=77770; i=i+10){    
+    tab.push(i);
+}
+
+console.log(tab);
+
+
 // En se servant du tableau précédent, créer un tableau qui contient [5,10,15,...,38885].
+
+let tab=[];
+
+for(let i=10; i<=38885; i=i+5){
+    tab.push(i);
+}
+
+console.log(tab);
+
+
 
 // Écrire une fonction qui prend un tableau en entrée et qui en supprime les dernières valeurs, tant qu'elles sont inférieures à 50.
 // console.log(leNomDeVotreFonction([1,45,88,54,23,-100,12]); // doit afficher [1,45,88,54]
+
+
+let tab=[1, 45, 88, 54, 23, -100, 12];
+function reset(tab){
+    for(let i=0; i<tab.length; i++){
+        if(tab[tab.length-1]<50){
+            tab.pop();
+        }
+    }
+}
 
 
 
