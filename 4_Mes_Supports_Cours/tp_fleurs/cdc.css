@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 
 /*--------- POLICE----------*/
 
+=======
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189
 @font-face {
     font-family: "friendly";
     src: url("./friendly/friendly_regular.otf");
@@ -11,6 +14,7 @@
     src: url("./quicksand/quicksand_gras.otf");
 }
 
+<<<<<<< HEAD
 @font-face {
     font-family: "playfair";
     src: url("./playfair/playfair.otf");
@@ -26,13 +30,20 @@
 
 /*---------- HEADER ----------*/
 
+=======
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189
 
 header{
     width:100vw;
 }
 
 .banniere{
+<<<<<<< HEAD
     position: a;    
+=======
+    position: a;
+    
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189
 }
 
 .logo{
@@ -42,9 +53,12 @@ header{
     margin-top: -100px;
 }
 
+<<<<<<< HEAD
 
 /*----------- FOOTER ----------*/
 
+=======
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189
 footer{
     background-color:#186A77 ;
     text-align:right;
@@ -54,6 +68,7 @@ footer{
 
 .contact{
     color:#E7B236;
+<<<<<<< HEAD
     font-family: quicksand;
     text-decoration: none;
     font-size: 20px;
@@ -68,22 +83,43 @@ nav{
     justify-content: space-between;
     margin-top: -50px;
 }
+=======
+
+
+}
+
+h1{
+    color:#E7B236;
+    font-family: friendly;
+    text-align:right;
+}
+
+
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189
 
 .liens{
     color:#186A77;
     font-family: quicksand;
     text-decoration: none;
+<<<<<<< HEAD
     font-size: 30px;
     margin-right: 35px;
 
 }
 
+=======
+    
+}
+
+
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189
 .liens:hover{
     color: #E7B236;
 }
 
 .liens:visited{
     color: #186A77;
+<<<<<<< HEAD
 }
 
 
@@ -207,3 +243,6 @@ label {
 
 
 
+=======
+}
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189

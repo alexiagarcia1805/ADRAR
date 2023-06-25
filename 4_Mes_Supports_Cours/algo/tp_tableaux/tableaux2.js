@@ -170,6 +170,7 @@ console.log(tab);
 
 
 let tab=[1, 45, 88, 54, 23, -100, 12];
+<<<<<<< HEAD
 function reset(tab){
     for(let i=0; i<tab.length; i++){
         if(tab[tab.length-1]<50){
@@ -177,6 +178,20 @@ function reset(tab){
         }
     }
 }
+=======
+console.log(tab);
+
+function reset(tab){
+//    for(let i=0; i<tab.length; i++){
+        while(tab[tab.length-1]<50){
+            tab.pop();
+            }
+    }
+    
+//}
+
+console.log(reset(tab));
+>>>>>>> 1beee11c281cb3eb8153288f8fd13aa5c7fa1189
 
 
 
