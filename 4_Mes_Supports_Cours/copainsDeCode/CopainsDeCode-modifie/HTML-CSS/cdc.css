@@ -1,0 +1,173 @@
+
+/*--------- POLICE----------*/
+
+@font-face {
+    font-family: "friendly";
+    src: url("./friendly/friendly_regular.otf");
+}
+
+@font-face {
+    font-family: "quicksand";
+    src: url("./quicksand/quicksand_gras.otf");
+}
+
+@font-face {
+    font-family: "playfair";
+    src: url("./playfair/playfair.otf");
+}
+
+
+/*--------------------------------------------------------------
+
+            CSS GENERAL
+
+---------------------------------------------------------------*/
+
+
+/*---------- HEADER ----------*/
+
+
+header{
+    width:100vw;
+}
+
+.banniere{
+    position: a;    
+}
+
+.logo{
+    width:300px;
+    /*transform: translate(-50%, -50%);*/
+    margin:0 auto;
+    margin-top: -100px;
+}
+
+
+/*----------- FOOTER ----------*/
+
+footer{
+    background-color:#186A77 ;
+    text-align:right;
+    width: auto;
+    height: 200px;
+}
+
+.contact{
+    color:#E7B236;
+    font-family: quicksand;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+/*------------ NAVBAR -----------*/
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    margin-top: -50px;
+}
+
+.liens{
+    color:#186A77;
+    font-family: quicksand;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 35px;
+
+}
+
+.liens:hover{
+    color: #E7B236;
+}
+
+.liens:visited{
+    color: #186A77;
+}
+
+
+
+/*----------- TITRE TRAIT -----------*/
+
+h1{
+    color:#E7B236;
+    font-family: friendly;
+    font-size: 50px;
+}
+
+#trait{
+    background-color: #E7B236;
+    height: 5px;
+    width: 85%;
+    border-radius: 80px;
+}
+
+.containerTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+
+/*--------------------------------------------------------------
+
+            CSS CONTACT
+
+---------------------------------------------------------------*/
+
+/*----------- FORMULAIRE -----------*/
+
+h2{
+    color:#186A77;
+    text-align:center;
+    font-size: 80px;
+    font-family: playfair;
+}
+
+#formContact{
+    display: flex;
+    border-radius: 10px;
+    border: 5px solid #E7B236;
+    box-shadow: 0 0 20px #186A77; 
+    margin-top: 100px;
+    padding-top: 30px;
+    margin-left: 300px;
+    padding-top: 30px;
+    margin-right: 300px;
+    padding-top: 30px;
+    margin-bottom: 200px;
+    padding-bottom: 30px;
+    justify-content: space-around;
+
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #E7B236;
+    color: #fff;
+    border: 3px solid #E7B236;
+    cursor: pointer;
+}
+
+.formContact{
+
+
+}
+
+#fname
+
+#emailAddress
+
+#subject{
+
+}
+
+#button
+
+#tableauContact
+
+
+

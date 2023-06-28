@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"> 
+    <title>Faites notre quiz !</title>
+</head>
+<header>
+    <img class="banniere" src="../images/Banniere_Toulouse.png" alt="Banniere" width="100%" height="430px">
+    <div class="logo">
+    <img src="../images/Logo.png" alt="Logo">  
+    </div>
+    <nav>
+        <div class="liens1">
+            <a class="liens" href="accueil.html">Home</a>
+            <a class="liens" href="test.html">Match'Up</a>
+        </div>
+        <div>
+            <a id="connexion" class="liens" href="inscription-connexion.html">Inscription/Connexion</a>
+            <a class="liens" href="monCompte.html">Mon compte</a>
+        </div>
+    </nav>
+</header>
+<body>
+    <article>
+        <div class="containerTitle">
+            <div id="trait"></div>
+            <h1>Match'Up!</h1>
+        </div>    
+    </article>
+    <h1 class="h1-test-main">Envie de sortir et de rencontrer de nouvelles personnes ?</h1>
+    
+    <div class="photoAmis">
+        <img src="../images/groupeAmis.jpeg" alt=photoAmis width="30%">
+    </div>
+    <h2 class="h2-test">Passes notre test et Match' ! ✨</h2>
+    <main>
+        <form class="form">
+            <div class="form--header-container">
+                <h1 class="h1-test">
+                    Les amis que je recherche sont...
+                </h1>
+                <form action="#">
+                    <label for="pref">De préférence</label>
+                    <select name="genre" id="genre">
+                        <option value="Hommes">Hommes</option>
+                        <option value="Femmes">Femmes</option>
+                        <option value="Pas_d'importance">Pas d'importance</option>
+                    </select>
+                    <label for="age">D'âge:</label>
+                    <select name="age" id="age">
+                        <option value="18-25">18-25 ans</option>
+                        <option value="25-30">25-30 ans</option>
+                        <option value="30-50">30-50 ans</option>
+                        <option value="Pas_d'importance">Pas d'importance</option>
+                    </select>
+            </div>
+            <hr>
+            <div class="form--header-container">
+                <h1 class="h1-test">Mes centres d'intérêt</h1>
+                <p class="p-test">
+                    Cochez les activités qui vous intérêssent :
+                </p>
+                <div class="checkboxDiv">
+                    <label for="checkbox_1"><input class="checkboxTest" type="checkbox"  id="checkbox_1">🎥 Le cinéma </label>
+                    <label for="checkbox_2"><input class="checkboxTest" type="checkbox"  id="checkbox_2">⚽ Le sport </label>
+                    <label for="checkbox_3"><input class="checkboxTest" type="checkbox"  id="checkbox_3">🥂 Aller boire un verre</label>
+                    <label for="checkbox_4"><input class="checkboxTest" type="checkbox"  id="checkbox_4">🎲 Les jeux de société</label>
+                    <label for="checkbox_5"><input class="checkboxTest" type="checkbox"  id="checkbox_5">🎮 Les jeux vidéos</label>
+                    <label for="checkbox_6"><input class="checkboxTest" type="checkbox"  id="checkbox_6">📖 La lecture</label>
+                    <label for="checkbox_7"><input class="checkboxTest" type="checkbox"  id="checkbox_7">🥾 La randonnée</label>
+                    <label for="checkbox_8"><input class="checkboxTest" type="checkbox"  id="checkbox_8">🐟 La pêche</label>
+                    <label for="checkbox_9"><input class="checkboxTest" type="checkbox"  id="checkbox_9">🎤 Le karaoké</label>
+                    <label for="checkbox_10"><input class="checkboxTest" type="checkbox"  id="checkbox_10">🏴‍☠️ Les escapes games</label>
+                    <label for="checkbox_11"><input class="checkboxTest" type="checkbox"  id="checkbox_11">🎨 Le musée</label>
+                    <label for="checkbox_12"><input class="checkboxTest" type="checkbox"  id="checkbox_12">🍽  La cuisine</label>
+                    <label for="checkbox_13"><input class="checkboxTest" type="checkbox"  id="checkbox_13">🎭 Les arts créatifs</label>
+                </div>
+            </div>
+            <hr>
+            <div class="form--header-container">
+                <h1 class="h1-test">Mes disponibilités</h1>
+                <p class="p-test">
+                    Les jours où je suis souvent disponible :
+                </p>
+                <div class="checkboxDiv">
+                    <label for="checkbox_14"><input class="checkboxTest" type="checkbox"  id="checkbox_14">Lundi</label>
+                    <label for="checkbox_15"><input class="checkboxTest" type="checkbox"  id="checkbox_15">Mardi</label>
+                    <label for="checkbox_16"><input class="checkboxTest" type="checkbox"  id="checkbox_16">Mercredi</label>
+                    <label for="checkbox_17"><input class="checkboxTest" type="checkbox"  id="checkbox_17">Jeudi</label>
+                    <label for="checkbox_18"><input class="checkboxTest" type="checkbox"  id="checkbox_18">Vendredi</label>
+                    <label for="checkbox_19"><input class="checkboxTest" type="checkbox"  id="checkbox_19">Samedi</label>
+                    <label for="checkbox_20"><input class="checkboxTest" type="checkbox"  id="checkbox_20">Dimanche</label>
+                </div>
+            </div>
+            <hr>
+            <input class="matchup" type="submit" value="Match'Up ! 😁">
+        </form>
+    </main>
+</body>
+<footer>
+    <a  class="contact" href="contact.html">Contact</a>
+</footer>
+</html>

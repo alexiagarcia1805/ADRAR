@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "friendly";
+    src: url("./friendly/friendly_regular.otf");
+}
+
+@font-face {
+    font-family: "quicksand";
+    src: url("./quicksand/quicksand_gras.otf");
+}
+
+
+header{
+    width:100vw;
+}
+
+.banniere{
+    position: a;
+}
+
+.logo{
+    width:300px;
+    /*transform: translate(-50%, -50%);*/
+    margin:0 auto;
+    margin-top: -100px;
+}
+
+.liens{
+    color:#186A77;
+    font-family: quicksand;
+    text-decoration: none;
+    
+}
+
+.liens:hover{
+    color: #E7B236;
+}
+
+
+.liens:visited{
+    color: #186A77;
+}
+
+a#connexion{
+    margin-left: 1000px;
+}
+
+.photo-nom{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.corps{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.infos{
+    background-color:#186A77;
+    color:white;
+    width: 40%;
+    height: 30%;
+    padding: 15px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 5px solid #E7B236;
+    box-shadow: 0 0 20px #186A77; 
+    margin-right: 0%;
+}
+
+.loisirs{
+    background-color: #E7B236;
+    width : 40%;
+    height: 30%;
+    padding:15px;
+    border-radius: 10px;
+    border: 5px solid  #186A77;
+    box-shadow: 0 0 20px; 
+    margin-left: 0%;
+    margin-bottom: 20px;
+
+}
+
+
+footer{
+    background-color:#186A77 ;
+    text-align:right;
+    width: auto;
+    height: 200px;
+}
+
+.contact{
+    color:#E7B236;
+    margin-bottom: 0;
+}
+
+h1{
+    color:#E7B236;
+    font-family: friendly;
+    text-align:right;
+    margin: 0%;
+}
+
+
+h3{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

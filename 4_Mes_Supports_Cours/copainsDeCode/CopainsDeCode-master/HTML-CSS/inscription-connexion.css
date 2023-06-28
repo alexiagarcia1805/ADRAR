@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif; 
+}
+
+#body {
+    background-color: white; 
+    background-image: url(../images/JoinUs.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: #186A77;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    border: 5px solid #E7B236;
+    box-shadow: 0 0 20px #186A77; 
+}
+
+
+h4 {
+    text-align: center;
+    font-size: 20px;
+}
+
+hr {
+    margin: 10px 0;
+    background-color: #E7B236;
+    border: 0;
+    height: 2px;
+    width: 100%;
+}
+
+.name-field {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.name-field div {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-field div {
+    width: 49%;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input {
+    margin-bottom: 5px;
+    padding: 5px;
+    outline: 0%;
+    border: 2px solid #E7B236;
+}
+
+input:focus {
+    border: 1px solid #E7B236;
+}
+
+input[type="submit"] {
+    margin-top: 15px;
+    background-color: #E7B236;
+    color: #fff;
+    border: 3px solid #E7B236;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+p a {
+    text-decoration: 0;
+    color: #E7B236;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+footer{
+    background-color:#186A77 ;
+    text-align:right;
+    width: auto;
+    height: 200px;
+}
+
