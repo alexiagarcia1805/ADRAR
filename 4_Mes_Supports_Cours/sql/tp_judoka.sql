@@ -1,0 +1,5 @@
+
+drop database club;
+	
+    
+    
